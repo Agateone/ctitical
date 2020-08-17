@@ -23,7 +23,7 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	@Given("I am a new user and choose to register")
 	@Test(priority=1)
 	public void i_am_a_new_user_and_choose_to_register() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
+		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
     	driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
