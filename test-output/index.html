@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-_Popbitch_Chrome">
+              <span class="suite-name border-failed"> Popbitch Chrome</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-_Popbitch_Chrome">
+                    <span>signup.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-_Popbitch_Chrome">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-_Popbitch_Chrome">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-_Popbitch_Chrome">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-_Popbitch_Chrome">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-_Popbitch_Chrome">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-_Popbitch_Chrome">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="hide-methods failed suite-_Popbitch_Chrome"> (hide)</a> <!-- hide-methods failed suite-_Popbitch_Chrome -->
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="show-methods failed suite-_Popbitch_Chrome"> (show)</a> <!-- show-methods failed suite-_Popbitch_Chrome -->
+                    </span>
+                    <div class="method-list-content failed suite-_Popbitch_Chrome">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_see_a_finish_notice">i_see_a_finish_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="three_pounds_in_the_wallet">three_pounds_in_the_wallet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Popbitch_Chrome -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="hide-methods passed suite-_Popbitch_Chrome"> (hide)</a> <!-- hide-methods passed suite-_Popbitch_Chrome -->
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="show-methods passed suite-_Popbitch_Chrome"> (show)</a> <!-- show-methods passed suite-_Popbitch_Chrome -->
+                    </span>
+                    <div class="method-list-content passed suite-_Popbitch_Chrome">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet">auto_top_up_off_shows_ADD_FUNDS_on_the_wallet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details">choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm">choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="choose_card_on_payment_options_page">choose_card_on_payment_options_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="enter_valid_card_details_and_billing_details_and_click_on_continue">enter_valid_card_details_and_billing_details_and_click_on_continue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_am_a_new_user_and_choose_to_register">i_am_a_new_user_and_choose_to_register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_click_on_change_My_preferences_on_missing_out_page">i_click_on_change_My_preferences_on_missing_out_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_click_on_continue_on_marketing_preferences_page_without_opting">i_click_on_continue_on_marketing_preferences_page_without_opting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_enter_a_new_email_and_click_on_continue">i_enter_a_new_email_and_click_on_continue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_opt_to_share_personal_data_and_offers_and_click_on_continue">i_opt_to_share_personal_data_and_offers_and_click_on_continue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Popbitch_Chrome -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Popbitch_Chrome" class="panel _Popbitch_Chrome">
+          <div class="suite-_Popbitch_Chrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Stepdef.Successful_Registration_from_FUN_with_Top_Up</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_see_a_finish_notice">
+                  </a> <!-- i_see_a_finish_notice -->
+                  <span class="method-name">i_see_a_finish_notice</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id iframe__popup_notices
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c38:2749:cf4b:aaa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at Elements.Popbitch_Finish_Notice_elements.click_on_popbitch_finish_Notice_ok(Popbitch_Finish_Notice_elements.java:88)
+	at Stepdef.Successful_Registration_from_FUN_with_Top_Up.i_see_a_finish_notice(Successful_Registration_from_FUN_with_Top_Up.java:194)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="three_pounds_in_the_wallet">
+                  </a> <!-- three_pounds_in_the_wallet -->
+                  <span class="method-name">three_pounds_in_the_wallet</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [3.00] but found [2.75]
+	at Stepdef.Successful_Registration_from_FUN_with_Top_Up.three_pounds_in_the_wallet(Successful_Registration_from_FUN_with_Top_Up.java:208)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-failed -->
+          <div class="suite-_Popbitch_Chrome-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Stepdef.Successful_Registration_from_FUN_with_Top_Up</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet">
+                  </a> <!-- auto_top_up_off_shows_ADD_FUNDS_on_the_wallet -->
+                  <span class="method-name">auto_top_up_off_shows_ADD_FUNDS_on_the_wallet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details">
+                  </a> <!-- choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details -->
+                  <span class="method-name">choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm">
+                  </a> <!-- choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm -->
+                  <span class="method-name">choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_card_on_payment_options_page">
+                  </a> <!-- choose_card_on_payment_options_page -->
+                  <span class="method-name">choose_card_on_payment_options_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_valid_card_details_and_billing_details_and_click_on_continue">
+                  </a> <!-- enter_valid_card_details_and_billing_details_and_click_on_continue -->
+                  <span class="method-name">enter_valid_card_details_and_billing_details_and_click_on_continue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_am_a_new_user_and_choose_to_register">
+                  </a> <!-- i_am_a_new_user_and_choose_to_register -->
+                  <span class="method-name">i_am_a_new_user_and_choose_to_register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_click_on_change_My_preferences_on_missing_out_page">
+                  </a> <!-- i_click_on_change_My_preferences_on_missing_out_page -->
+                  <span class="method-name">i_click_on_change_My_preferences_on_missing_out_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_click_on_continue_on_marketing_preferences_page_without_opting">
+                  </a> <!-- i_click_on_continue_on_marketing_preferences_page_without_opting -->
+                  <span class="method-name">i_click_on_continue_on_marketing_preferences_page_without_opting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_enter_a_new_email_and_click_on_continue">
+                  </a> <!-- i_enter_a_new_email_and_click_on_continue -->
+                  <span class="method-name">i_enter_a_new_email_and_click_on_continue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_opt_to_share_personal_data_and_offers_and_click_on_continue">
+                  </a> <!-- i_opt_to_share_personal_data_and_offers_and_click_on_continue -->
+                  <span class="method-name">i_opt_to_share_personal_data_and_offers_and_click_on_continue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-passed -->
+        </div> <!-- panel _Popbitch_Chrome -->
+        <div panel-name="test-xml-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jay/eclipse-workspace/E2E_Scenarios_Axate/signup.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot; Popbitch Chrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Stepdef.Successful_Registration_from_FUN_with_Top_Up&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome --&gt;
+&lt;/suite&gt; &lt;!--  Popbitch Chrome --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Popbitch_Chrome');
+function tableData__Popbitch_Chrome() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm')
+data.setCell(0, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(0, 3, 28062);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enter_valid_card_details_and_billing_details_and_click_on_continue')
+data.setCell(1, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(1, 3, 27982);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'i_am_a_new_user_and_choose_to_register')
+data.setCell(2, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(2, 3, 22845);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'choose_card_on_payment_options_page')
+data.setCell(3, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(3, 3, 15098);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'i_opt_to_share_personal_data_and_offers_and_click_on_continue')
+data.setCell(4, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(4, 3, 12152);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'i_enter_a_new_email_and_click_on_continue')
+data.setCell(5, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(5, 3, 9398);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'i_click_on_continue_on_marketing_preferences_page_without_opting')
+data.setCell(6, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(6, 3, 8058);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'auto_top_up_off_shows_ADD_FUNDS_on_the_wallet')
+data.setCell(7, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(7, 3, 7289);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'i_see_a_finish_notice')
+data.setCell(8, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(8, 3, 7043);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'three_pounds_in_the_wallet')
+data.setCell(9, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(9, 3, 6226);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'i_click_on_change_My_preferences_on_missing_out_page')
+data.setCell(10, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(10, 3, 4071);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details')
+data.setCell(11, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(11, 3, 4054);
+window.suiteTableData['_Popbitch_Chrome']= { tableData: data, tableDiv: 'times-div-_Popbitch_Chrome'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-_Popbitch_Chrome">
+              </div> <!-- times-div-_Popbitch_Chrome -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Popbitch Chrome</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Popbitch_Chrome" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Stepdef.Successful_Registration_from_FUN_with_Top_Up</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">i_am_a_new_user_and_choose_to_register</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_enter_a_new_email_and_click_on_continue</span>
+                <span class="method-start">22849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_click_on_continue_on_marketing_preferences_page_without_opting</span>
+                <span class="method-start">32250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_click_on_change_My_preferences_on_missing_out_page</span>
+                <span class="method-start">40311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">i_opt_to_share_personal_data_and_offers_and_click_on_continue</span>
+                <span class="method-start">44384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details</span>
+                <span class="method-start">56539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_card_on_payment_options_page</span>
+                <span class="method-start">60595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enter_valid_card_details_and_billing_details_and_click_on_continue</span>
+                <span class="method-start">75696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm</span>
+                <span class="method-start">103680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">i_see_a_finish_notice</span>
+                <span class="method-start">131744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">three_pounds_in_the_wallet</span>
+                <span class="method-start">138789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">auto_top_up_off_shows_ADD_FUNDS_on_the_wallet</span>
+                <span class="method-start">145016 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
