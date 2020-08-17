@@ -165,7 +165,7 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	
 	public void i_see_a_finish_notice() throws InterruptedException, IOException {
 		driver.switchTo().window(parentWindowHandler);		
-		Thread.sleep(4000);
+		Thread.sleep(10000);
 		Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 		 F1.click_on_popbitch_finish_Notice_ok();	
 	}
