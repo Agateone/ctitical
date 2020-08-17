@@ -43,7 +43,7 @@
                      <goal>generate</goal>
                  </goals>
                     <configuration>
-                     <projectname>E2E_Scenarios_Axate</projectname>
+                     <projectname>agate_system_tests</projectname>
 
 <outputdirectory>${project.build.directory}/cucumber-html-reports</outputdirectory>
 
