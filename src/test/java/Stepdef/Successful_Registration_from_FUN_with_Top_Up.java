@@ -170,8 +170,8 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	public void i_see_a_finish_notice() throws InterruptedException, IOException {
 		driver.switchTo().window(parentWindowHandler);		
 		Thread.sleep(10000);
-		//Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
-		 //F1.click_on_popbitch_finish_Notice_ok();	
+		Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
+		P1.Click_On_popbitch_staging_agate_poster();
 	}
 
 		@Test(priority=11)
@@ -180,7 +180,7 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	public void three_pounds_in_the_wallet() throws InterruptedException {
 		Thread.sleep(4000);
 		Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
-		P1.Click_On_popbitch_staging_agate_poster();
+		
 		String your_balance=P1.get_your_balance();
 		String actual_balance="3.00";
 		Assert.assertEquals(your_balance, actual_balance);		
