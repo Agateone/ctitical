@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
+<testng-results skipped="0" failed="3" ignored="0" total="12" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name=" Popbitch Chrome" duration-ms="152326" started-at="2020-08-17T16:14:45Z" finished-at="2020-08-17T16:17:17Z">
+  <suite name=" Popbitch Chrome" duration-ms="145552" started-at="2020-08-17T21:15:42Z" finished-at="2020-08-17T21:18:08Z">
     <groups>
     </groups>
-    <test name="chrome" duration-ms="152326" started-at="2020-08-17T16:14:45Z" finished-at="2020-08-17T16:17:17Z">
+    <test name="chrome" duration-ms="145552" started-at="2020-08-17T21:15:42Z" finished-at="2020-08-17T21:18:08Z">
       <class name="Stepdef.Successful_Registration_from_FUN_with_Top_Up">
-        <test-method status="PASS" signature="i_am_a_new_user_and_choose_to_register()[pri:1, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_am_a_new_user_and_choose_to_register" duration-ms="22845" started-at="2020-08-17T16:14:45Z" finished-at="2020-08-17T16:15:08Z">
+        <test-method status="PASS" signature="i_am_a_new_user_and_choose_to_register()[pri:1, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_am_a_new_user_and_choose_to_register" duration-ms="24163" started-at="2020-08-17T21:15:42Z" finished-at="2020-08-17T21:16:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_new_user_and_choose_to_register -->
-        <test-method status="PASS" signature="i_enter_a_new_email_and_click_on_continue()[pri:2, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_enter_a_new_email_and_click_on_continue" duration-ms="9398" started-at="2020-08-17T16:15:08Z" finished-at="2020-08-17T16:15:17Z">
+        <test-method status="PASS" signature="i_enter_a_new_email_and_click_on_continue()[pri:2, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_enter_a_new_email_and_click_on_continue" duration-ms="9696" started-at="2020-08-17T21:16:06Z" finished-at="2020-08-17T21:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_enter_a_new_email_and_click_on_continue -->
-        <test-method status="PASS" signature="i_click_on_continue_on_marketing_preferences_page_without_opting()[pri:3, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_click_on_continue_on_marketing_preferences_page_without_opting" duration-ms="8058" started-at="2020-08-17T16:15:17Z" finished-at="2020-08-17T16:15:25Z">
+        <test-method status="PASS" signature="i_click_on_continue_on_marketing_preferences_page_without_opting()[pri:3, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_click_on_continue_on_marketing_preferences_page_without_opting" duration-ms="8089" started-at="2020-08-17T21:16:16Z" finished-at="2020-08-17T21:16:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_continue_on_marketing_preferences_page_without_opting -->
-        <test-method status="PASS" signature="i_click_on_change_My_preferences_on_missing_out_page()[pri:4, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_click_on_change_My_preferences_on_missing_out_page" duration-ms="4071" started-at="2020-08-17T16:15:25Z" finished-at="2020-08-17T16:15:29Z">
+        <test-method status="PASS" signature="i_click_on_change_My_preferences_on_missing_out_page()[pri:4, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_click_on_change_My_preferences_on_missing_out_page" duration-ms="4111" started-at="2020-08-17T21:16:24Z" finished-at="2020-08-17T21:16:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_click_on_change_My_preferences_on_missing_out_page -->
-        <test-method status="PASS" signature="i_opt_to_share_personal_data_and_offers_and_click_on_continue()[pri:5, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_opt_to_share_personal_data_and_offers_and_click_on_continue" duration-ms="12152" started-at="2020-08-17T16:15:29Z" finished-at="2020-08-17T16:15:42Z">
+        <test-method status="PASS" signature="i_opt_to_share_personal_data_and_offers_and_click_on_continue()[pri:5, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_opt_to_share_personal_data_and_offers_and_click_on_continue" duration-ms="12233" started-at="2020-08-17T21:16:28Z" finished-at="2020-08-17T21:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_opt_to_share_personal_data_and_offers_and_click_on_continue -->
-        <test-method status="PASS" signature="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details()[pri:6, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details" duration-ms="4054" started-at="2020-08-17T16:15:42Z" finished-at="2020-08-17T16:15:46Z">
+        <test-method status="PASS" signature="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details()[pri:6, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details" duration-ms="4087" started-at="2020-08-17T21:16:40Z" finished-at="2020-08-17T21:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choose_Three_pounds_on_top_up_page_and_click_on_Add_Payment_details -->
-        <test-method status="PASS" signature="choose_card_on_payment_options_page()[pri:7, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="choose_card_on_payment_options_page" duration-ms="15098" started-at="2020-08-17T16:15:46Z" finished-at="2020-08-17T16:16:01Z">
+        <test-method status="PASS" signature="choose_card_on_payment_options_page()[pri:7, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="choose_card_on_payment_options_page" duration-ms="15161" started-at="2020-08-17T21:16:45Z" finished-at="2020-08-17T21:17:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choose_card_on_payment_options_page -->
-        <test-method status="PASS" signature="enter_valid_card_details_and_billing_details_and_click_on_continue()[pri:8, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="enter_valid_card_details_and_billing_details_and_click_on_continue" duration-ms="27982" started-at="2020-08-17T16:16:01Z" finished-at="2020-08-17T16:16:29Z">
+        <test-method status="PASS" signature="enter_valid_card_details_and_billing_details_and_click_on_continue()[pri:8, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="enter_valid_card_details_and_billing_details_and_click_on_continue" duration-ms="28802" started-at="2020-08-17T21:17:00Z" finished-at="2020-08-17T21:17:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_card_details_and_billing_details_and_click_on_continue -->
-        <test-method status="PASS" signature="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm()[pri:9, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm" duration-ms="28062" started-at="2020-08-17T16:16:29Z" finished-at="2020-08-17T16:16:57Z">
+        <test-method status="PASS" signature="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm()[pri:9, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm" duration-ms="28092" started-at="2020-08-17T21:17:28Z" finished-at="2020-08-17T21:17:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choose_auto_top_up_OFF_and_Auto_pay_On_and_click_on_confirm -->
-        <test-method status="FAIL" signature="i_see_a_finish_notice()[pri:10, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="i_see_a_finish_notice" duration-ms="7043" started-at="2020-08-17T16:16:57Z" finished-at="2020-08-17T16:17:04Z">
-          <exception class="org.openqa.selenium.NoSuchFrameException">
+        <test-method status="FAIL" signature="i_see_a_finish_notice()[pri:10, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="i_see_a_finish_notice" duration-ms="5" started-at="2020-08-17T21:17:57Z" finished-at="2020-08-17T21:17:57Z">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[No frame element found by name or id iframe__popup_notices
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
-Driver info: driver.version: unknown]]>
+              <![CDATA[null value in entry: handle=null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id iframe__popup_notices
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-at Elements.Popbitch_Finish_Notice_elements.click_on_popbitch_finish_Notice_ok(Popbitch_Finish_Notice_elements.java:88)
-at Stepdef.Successful_Registration_from_FUN_with_Top_Up.i_see_a_finish_notice(Successful_Registration_from_FUN_with_Top_Up.java:194)
+              <![CDATA[java.lang.NullPointerException: null value in entry: handle=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+at org.openqa.selenium.remote.DriverCommand.SWITCH_TO_WINDOW(DriverCommand.java:122)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:962)
+at Stepdef.Successful_Registration_from_FUN_with_Top_Up.i_see_a_finish_notice(Successful_Registration_from_FUN_with_Top_Up.java:171)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,24 +84,53 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_see_a_finish_notice -->
-        <test-method status="FAIL" signature="three_pounds_in_the_wallet()[pri:11, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="three_pounds_in_the_wallet" duration-ms="6226" started-at="2020-08-17T16:17:04Z" finished-at="2020-08-17T16:17:10Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="three_pounds_in_the_wallet()[pri:11, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="three_pounds_in_the_wallet" duration-ms="4045" started-at="2020-08-17T21:17:57Z" finished-at="2020-08-17T21:18:01Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[expected [3.00] but found [2.75]]]>
+              <![CDATA[no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61519}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 7d341c1a0b2ea41dea044991530869bd
+*** Element info: {Using=id, value=agateposter}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [3.00] but found [2.75]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at Stepdef.Successful_Registration_from_FUN_with_Top_Up.three_pounds_in_the_wallet(Successful_Registration_from_FUN_with_Top_Up.java:208)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61519}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 7d341c1a0b2ea41dea044991530869bd
+*** Element info: {Using=id, value=agateposter}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:376)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+at Elements.Popbitch_Wallet_Elements_staging.Click_On_popbitch_staging_agate_poster(Popbitch_Wallet_Elements_staging.java:30)
+at Stepdef.Successful_Registration_from_FUN_with_Top_Up.three_pounds_in_the_wallet(Successful_Registration_from_FUN_with_Top_Up.java:183)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,11 +158,82 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- three_pounds_in_the_wallet -->
-        <test-method status="PASS" signature="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet()[pri:12, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@6f1fba17]" name="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet" duration-ms="7289" started-at="2020-08-17T16:17:10Z" finished-at="2020-08-17T16:17:17Z">
+        <test-method status="FAIL" signature="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet()[pri:12, instance:Stepdef.Successful_Registration_from_FUN_with_Top_Up@a67c67e]" name="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet" duration-ms="7017" started-at="2020-08-17T21:18:01Z" finished-at="2020-08-17T21:18:08Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61519}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 7d341c1a0b2ea41dea044991530869bd
+*** Element info: {Using=css selector, value=frame[name='iframe__wallet'],iframe[name='iframe__wallet']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=84.0.4147.125)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61519}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 7d341c1a0b2ea41dea044991530869bd
+*** Element info: {Using=css selector, value=frame[name='iframe__wallet'],iframe[name='iframe__wallet']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:441)
+at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:315)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:934)
+at Elements.Popbitch_Wallet_Elements_staging.Click_On_popbitch_wallet_Top_up(Popbitch_Wallet_Elements_staging.java:39)
+at Stepdef.Successful_Registration_from_FUN_with_Top_Up.auto_top_up_off_shows_ADD_FUNDS_on_the_wallet(Successful_Registration_from_FUN_with_Top_Up.java:195)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- auto_top_up_off_shows_ADD_FUNDS_on_the_wallet -->

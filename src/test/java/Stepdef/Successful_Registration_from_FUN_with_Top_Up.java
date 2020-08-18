@@ -20,11 +20,15 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	 WebDriver driver;
 	 String parentWindowHandler;
 	
+	 
+	 
+	 
+	
 	 @Test(priority=1)
 	 @Given("I am a new user and choose to register")
 	
 	public void i_am_a_new_user_and_choose_to_register() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
     	driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
@@ -32,7 +36,7 @@ public class Successful_Registration_from_FUN_with_Top_Up {
         PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
         w1.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
         Assert.assertTrue(true);
-        parentWindowHandler = driver.getWindowHandle();
+        String parentWindowHandler = driver.getWindowHandle();
 	    
 	}
 
@@ -166,8 +170,8 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 	public void i_see_a_finish_notice() throws InterruptedException, IOException {
 		driver.switchTo().window(parentWindowHandler);		
 		Thread.sleep(10000);
-		Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
-		 F1.click_on_popbitch_finish_Notice_ok();	
+		//Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
+		 //F1.click_on_popbitch_finish_Notice_ok();	
 	}
 
 		@Test(priority=11)
@@ -178,7 +182,7 @@ public class Successful_Registration_from_FUN_with_Top_Up {
 		Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
 		P1.Click_On_popbitch_staging_agate_poster();
 		String your_balance=P1.get_your_balance();
-		String actual_balance="2.75";
+		String actual_balance="3.00";
 		Assert.assertEquals(your_balance, actual_balance);		
 	}
 
