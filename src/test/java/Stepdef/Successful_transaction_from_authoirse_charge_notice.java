@@ -69,7 +69,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
   	R1.Registration5();
 	R1.Registration6();
 	R1.Registration7();
-	Thread.sleep(20000);
+	Thread.sleep(30000);
 	R1.Registration9(); 
 	Thread.sleep(4000);
 	R1.Registration8(); 
