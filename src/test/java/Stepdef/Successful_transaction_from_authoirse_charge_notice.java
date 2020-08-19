@@ -1,19 +1,19 @@
 package Stepdef;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Set;
+//import java.util.Iterator;
+//import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
-import Elements.Authorise_charge_notice_popbitch;
+//import Elements.Authorise_charge_notice_popbitch;
 import Elements.Cornwall_Reports_FUN;
-import Elements.Popbitch_Finish_Notice_elements;
-import Elements.Popbitch_Wallet_Elements_staging;
-import Elements.Register_Page_Elements;
+//import Elements.Popbitch_Finish_Notice_elements;
+//import Elements.Popbitch_Wallet_Elements_staging;
+//import Elements.Register_Page_Elements;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -50,7 +50,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 		 Thread.sleep(4000);
 		 Cornwall_Reports_FUN cornwall = new Cornwall_Reports_FUN(driver);
 			cornwall.Click_On_Cornwall_First_Use_CreateWallet();
-        Assert.assertTrue(true);
+       /* Assert.assertTrue(true);
          
          Thread.sleep(4000);
 		String subWindowHandler = null;
@@ -65,7 +65,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
   	  Thread.sleep(4000);  		
 	  	R1.Registration2();	  		
   	  	R1.Registration3();
-  	  R1.Registration4();
+  	  R1.Registration4();*/
   	/*R1.Registration10();
 	driver.switchTo().window(parentWindowHandler);
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
