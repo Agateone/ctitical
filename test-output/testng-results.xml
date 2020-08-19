@@ -2,29 +2,31 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name=" Popbitch Chrome" duration-ms="210926" started-at="2020-08-19T15:13:50Z" finished-at="2020-08-19T15:17:21Z">
+  <suite name=" Popbitch Chrome" duration-ms="117348" started-at="2020-08-19T16:43:28Z" finished-at="2020-08-19T16:45:25Z">
     <groups>
     </groups>
-    <test name="chrome" duration-ms="210926" started-at="2020-08-19T15:13:50Z" finished-at="2020-08-19T15:17:21Z">
+    <test name="chrome" duration-ms="117348" started-at="2020-08-19T16:43:28Z" finished-at="2020-08-19T16:45:25Z">
       <class name="Stepdef.Successful_transaction_from_authoirse_charge_notice">
-        <test-method status="PASS" signature="i_am_a_new_user()[pri:1, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_am_a_new_user" duration-ms="28645" started-at="2020-08-19T15:13:50Z" finished-at="2020-08-19T15:14:19Z">
+        <test-method status="PASS" signature="i_am_a_new_user()[pri:1, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_am_a_new_user" duration-ms="27730" started-at="2020-08-19T16:43:28Z" finished-at="2020-08-19T16:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_am_a_new_user -->
-        <test-method status="FAIL" signature="i_register()[pri:2, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_register" duration-ms="153974" started-at="2020-08-19T15:14:19Z" finished-at="2020-08-19T15:16:53Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="i_register()[pri:2, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_register" duration-ms="59361" started-at="2020-08-19T16:43:55Z" finished-at="2020-08-19T16:44:55Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
             <message>
-              <![CDATA[expected [2.75] but found [1.00]]]>
+              <![CDATA[No frame element found by name or id iframe__popup_notices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2.75] but found [1.00]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_register(Successful_transaction_from_authoirse_charge_notice.java:85)
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id iframe__popup_notices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:941)
+at Elements.Popbitch_Finish_Notice_elements.click_on_popbitch_finish_Notice_ok(Popbitch_Finish_Notice_elements.java:88)
+at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_register(Successful_transaction_from_authoirse_charge_notice.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -52,33 +54,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_register -->
-        <test-method status="FAIL" signature="i_see_a_wallet_with_three_pounds()[pri:3, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_see_a_wallet_with_three_pounds" duration-ms="28272" started-at="2020-08-19T15:16:53Z" finished-at="2020-08-19T15:17:21Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="i_see_a_wallet_with_three_pounds()[pri:3, instance:Stepdef.Successful_transaction_from_authoirse_charge_notice@71318ec4]" name="i_see_a_wallet_with_three_pounds" duration-ms="30229" started-at="2020-08-19T16:44:55Z" finished-at="2020-08-19T16:45:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[unknown error: Element <button class="sendpulse-prompt-close" onclick="oSpP.closeCustomPrompt(false); return false;" style="color:#222222 !important;">...</button> is not clickable at point (554, 120). Other element would receive the click: <div class="notice-wrapper__26N2- visible__294Dh">...</div>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"agate_payNow"}
   (Session info: chrome=84.0.4147.125)
   (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64370}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
-Session ID: fafa99ed433f7f7059462be9a1800490]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53050}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 60d051680850b6965c934d343709b619
+*** Element info: {Using=id, value=agate_payNow}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="sendpulse-prompt-close" onclick="oSpP.closeCustomPrompt(false); return false;" style="color:#222222 !important;">...</button> is not clickable at point (554, 120). Other element would receive the click: <div class="notice-wrapper__26N2- visible__294Dh">...</div>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"agate_payNow"}
   (Session info: chrome=84.0.4147.125)
   (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Jayarees-MacBook-Pro.local', ip: 'fe80:0:0:0:c38:2749:cf4b:aaa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64370}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
-Session ID: fafa99ed433f7f7059462be9a1800490
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53050}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 60d051680850b6965c934d343709b619
+*** Element info: {Using=id, value=agate_payNow}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -91,9 +97,12 @@ at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHtt
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_see_a_wallet_with_three_pounds(Successful_transaction_from_authoirse_charge_notice.java:101)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:376)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+at Elements.Authorise_charge_notice_popbitch.authorise_charge_notice_click_continue(Authorise_charge_notice_popbitch.java:35)
+at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_see_a_wallet_with_three_pounds(Successful_transaction_from_authoirse_charge_notice.java:96)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,7 +130,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_see_a_wallet_with_three_pounds -->

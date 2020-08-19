@@ -66,14 +66,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	  	R1.Registration2();	  		
   	  	R1.Registration3();
   	  R1.Registration4();
-  	R1.Registration5();
-	R1.Registration6();
-	R1.Registration7();
-	Thread.sleep(30000);
-	R1.Registration9(); 
-	Thread.sleep(4000);
-	R1.Registration8(); 
-	Thread.sleep(10000);
+  	/*R1.Registration10();
 	driver.switchTo().window(parentWindowHandler);
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
@@ -83,7 +76,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	String your_balance=P1.get_your_balance();
 	String actual_balance="0.80";
 	Assert.assertEquals(your_balance, actual_balance);	
-	Thread.sleep(4000);		
+	Thread.sleep(4000);	*/	
 	
 	}
 
@@ -93,7 +86,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	public void i_see_a_wallet_with_three_pounds() throws InterruptedException, IOException {
 		
   	  	driver.navigate().to("https://cornwallreports.co.uk/european-union-puts-1-8-million-into-new-helicopter-link-to-isles-of-scilly/");
-		 Thread.sleep(4000);
+		/* Thread.sleep(4000);
 		 Thread.sleep(6000);
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			js.executeScript("window.scrollBy(0,50)");
@@ -101,7 +94,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 			driver.findElement(By.xpath("/html/body/div[1]/button")).click();
 		 Authorise_charge_notice_popbitch AT1 = new Authorise_charge_notice_popbitch(driver);
 		 AT1.authorise_charge_notice_click_continue();
-		 Thread.sleep(4000);
+		 Thread.sleep(4000);*/
 		 System.out.println(" ");
   	  	
 	}

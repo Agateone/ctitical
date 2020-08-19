@@ -9,22 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7"> Popbitch Chrome</th></tr>
-<tr><td><a href="#t0">chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">210,926</td><td></td><td></td></tr>
+<tr><td><a href="#t0">chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">117,348</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4"> Popbitch Chrome</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Stepdef.Successful_transaction_from_authoirse_charge_notice</td><td><a href="#m0">i_register</a></td><td rowspan="1">1597850059433</td><td rowspan="1">153974</td></tr><tr class="failedeven"><td><a href="#m1">i_see_a_wallet_with_three_pounds</a></td><td rowspan="1">1597850213411</td><td rowspan="1">28272</td></tr><tr><th colspan="4">chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Stepdef.Successful_transaction_from_authoirse_charge_notice</td><td><a href="#m2">i_am_a_new_user</a></td><td rowspan="1">1597850030783</td><td rowspan="1">28645</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4"> Popbitch Chrome</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Stepdef.Successful_transaction_from_authoirse_charge_notice</td><td><a href="#m0">i_register</a></td><td rowspan="1">1597855435886</td><td rowspan="1">59361</td></tr><tr class="failedeven"><td><a href="#m1">i_see_a_wallet_with_three_pounds</a></td><td rowspan="1">1597855495250</td><td rowspan="1">30229</td></tr><tr><th colspan="4">chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Stepdef.Successful_transaction_from_authoirse_charge_notice</td><td><a href="#m2">i_am_a_new_user</a></td><td rowspan="1">1597855408153</td><td rowspan="1">27730</td></tr></tbody>
 </table>
-<h2>chrome</h2><h3 id="m0">Stepdef.Successful_transaction_from_authoirse_charge_notice#i_register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [2.75] but found [1.00]
-	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_register(Successful_transaction_from_authoirse_charge_notice.java:85)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Stepdef.Successful_transaction_from_authoirse_charge_notice#i_see_a_wallet_with_three_pounds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;sendpulse-prompt-close&quot; onclick=&quot;oSpP.closeCustomPrompt(false); return false;&quot; style=&quot;color:#222222 !important;&quot;&gt;...&lt;/button&gt; is not clickable at point (554, 120). Other element would receive the click: &lt;div class=&quot;notice-wrapper__26N2- visible__294Dh&quot;&gt;...&lt;/div&gt;
+<h2>chrome</h2><h3 id="m0">Stepdef.Successful_transaction_from_authoirse_charge_notice#i_register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id iframe__popup_notices
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c38:2749:cf4b:aaa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:941)
+	at Elements.Popbitch_Finish_Notice_elements.click_on_popbitch_finish_Notice_ok(Popbitch_Finish_Notice_elements.java:88)
+	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_register(Successful_transaction_from_authoirse_charge_notice.java:72)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Stepdef.Successful_transaction_from_authoirse_charge_notice#i_see_a_wallet_with_three_pounds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;agate_payNow&quot;}
   (Session info: chrome=84.0.4147.125)
   (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c38:2749:cf4b:aaa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64370}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
-Session ID: fafa99ed433f7f7059462be9a1800490
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53050}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: 60d051680850b6965c934d343709b619
+*** Element info: {Using=id, value=agate_payNow}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
@@ -33,9 +40,12 @@ Session ID: fafa99ed433f7f7059462be9a1800490
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_see_a_wallet_with_three_pounds(Successful_transaction_from_authoirse_charge_notice.java:101)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at Elements.Authorise_charge_notice_popbitch.authorise_charge_notice_click_continue(Authorise_charge_notice_popbitch.java:35)
+	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_see_a_wallet_with_three_pounds(Successful_transaction_from_authoirse_charge_notice.java:96)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">Stepdef.Successful_transaction_from_authoirse_charge_notice#i_am_a_new_user</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

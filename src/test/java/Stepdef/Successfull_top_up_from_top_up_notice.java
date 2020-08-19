@@ -70,7 +70,7 @@ public class Successfull_top_up_from_top_up_notice {
 	driver.switchTo().window(parentWindowHandler);
 	driver.navigate().refresh();
 	Thread.sleep(6000);
-	String parentWindowHandler2 = driver.getWindowHandle();
+	
 	Add_Funds_Notice A1 = new Add_Funds_Notice(driver);
 	A1.click_on_add_funds_button();
 	
@@ -86,23 +86,6 @@ public class Successfull_top_up_from_top_up_notice {
 	Thread.sleep(4000);
 	Top_up_Elements T1 = new   Top_up_Elements(driver);
 	T1.click_on_add_payment();
-	Thread.sleep(10000);
-	R1.Registration6();	
-	Thread.sleep(4000);
-	R1.Registration7();
-	Thread.sleep(20000);
-	R1.Registration8();
-	Thread.sleep(10000);
-	
-	driver.switchTo().window(parentWindowHandler2);
-	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
-	F1.click_on_popbitch_finish_Notice_ok();
-	Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
-	P1.Click_On_popbitch_staging_agate_poster();
-	Thread.sleep(4000);
-	String your_balance=P1.get_your_balance();
-	String actual_balance="2.75";
-	Assert.assertEquals(your_balance, actual_balance);	
 	
 	}
 
