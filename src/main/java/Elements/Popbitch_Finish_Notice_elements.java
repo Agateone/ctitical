@@ -84,10 +84,10 @@ WebElement frame = driver_Popbitch_Finish_Notice_elements.findElement(By.xpath("
 	
 	public void click_on_popbitch_finish_Notice_ok() throws InterruptedException, IOException
 	{	Thread.sleep(3000);
-	System.out.println("Registration successful");
-	//driver_Popbitch_Finish_Notice_elements.switchTo().frame("iframe__popup_notices");
-	//	driver_Popbitch_Finish_Notice_elements.findElement(Popbitch_Finish_Notice_ok_button).click();
-	//	driver_Popbitch_Finish_Notice_elements.switchTo().defaultContent();
+	
+	driver_Popbitch_Finish_Notice_elements.switchTo().frame("iframe__popup_notices");
+		driver_Popbitch_Finish_Notice_elements.findElement(Popbitch_Finish_Notice_ok_button).click();
+		driver_Popbitch_Finish_Notice_elements.switchTo().defaultContent();
 		Thread.sleep(4000);
 
 	}	

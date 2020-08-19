@@ -6,9 +6,7 @@
     <classes>
       <class name="Stepdef.Successful_Registration_from_FUN_with_Top_Up">
         <methods>
-          <include name="three_pounds_in_the_wallet"/>
-          <include name="i_see_a_finish_notice"/>
-          <include name="auto_top_up_off_shows_ADD_FUNDS_on_the_wallet"/>
+          <include name="i_register"/>
         </methods>
       </class> <!-- Stepdef.Successful_Registration_from_FUN_with_Top_Up -->
     </classes>
