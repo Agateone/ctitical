@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-_Popbitch_Chrome">
-              <span class="suite-name border-passed"> Popbitch Chrome</span>
+              <span class="suite-name border-failed"> Popbitch Chrome</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-_Popbitch_Chrome">
-                    <span>signup.xml</span>
+                    <span>testng2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="hide-methods failed suite-_Popbitch_Chrome"> (hide)</a> <!-- hide-methods failed suite-_Popbitch_Chrome -->
+                      <a href="#" panel-name="suite-_Popbitch_Chrome" class="show-methods failed suite-_Popbitch_Chrome"> (show)</a> <!-- show-methods failed suite-_Popbitch_Chrome -->
+                    </span>
+                    <div class="method-list-content failed suite-_Popbitch_Chrome">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_dont_top_up_during_reg">i_dont_top_up_during_reg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Popbitch_Chrome -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +116,12 @@
                     <div class="method-list-content passed suite-_Popbitch_Chrome">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_am_a_new_user">i_am_a_new_user</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_am_a_new_user">i_am_a_new_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_register">i_register</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_Registration_from_FUN_with_Top_Up" hash-for-method="i_see_a_wallet_with_three_pounds">i_see_a_wallet_with_three_pounds</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_top_up_with_add_funds_through_top_up_page">i_top_up_with_add_funds_through_top_up_page</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-_Popbitch_Chrome -->
@@ -127,10 +136,29 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-_Popbitch_Chrome" class="panel _Popbitch_Chrome">
+          <div class="suite-_Popbitch_Chrome-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Stepdef.Successfull_top_up_from_top_up_notice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_dont_top_up_during_reg">
+                  </a> <!-- i_dont_top_up_during_reg -->
+                  <span class="method-name">i_dont_top_up_during_reg</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2.75] but found [3.00]
+	at Stepdef.Successfull_top_up_from_top_up_notice.i_dont_top_up_during_reg(Successfull_top_up_from_top_up_notice.java:105)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Popbitch_Chrome-class-failed -->
           <div class="suite-_Popbitch_Chrome-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Stepdef.Successful_Registration_from_FUN_with_Top_Up</span>
+              <span class="class-name">Stepdef.Successfull_top_up_from_top_up_notice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -142,16 +170,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="i_register">
-                  </a> <!-- i_register -->
-                  <span class="method-name">i_register</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="i_see_a_wallet_with_three_pounds">
-                  </a> <!-- i_see_a_wallet_with_three_pounds -->
-                  <span class="method-name">i_see_a_wallet_with_three_pounds</span>
+                  <a name="i_top_up_with_add_funds_through_top_up_page">
+                  </a> <!-- i_top_up_with_add_funds_through_top_up_page -->
+                  <span class="method-name">i_top_up_with_add_funds_through_top_up_page</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +180,7 @@
         </div> <!-- panel _Popbitch_Chrome -->
         <div panel-name="test-xml-_Popbitch_Chrome" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/jay/eclipse-workspace/E2E_Scenarios_Axate/signup.xml</span>
+            <span class="header-content">/Users/jay/eclipse-workspace/E2E_Scenarios_Axate/testng2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -169,7 +190,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Stepdef.Successful_Registration_from_FUN_with_Top_Up&quot;/&gt;
+      &lt;class name=&quot;Stepdef.Successfull_top_up_from_top_up_notice&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chrome --&gt;
 &lt;/suite&gt; &lt;!--  Popbitch Chrome --&gt;
@@ -211,22 +232,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'i_register')
-data.setCell(0, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
-data.setCell(0, 3, 159044);
+data.setCell(0, 1, 'i_dont_top_up_during_reg')
+data.setCell(0, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
+data.setCell(0, 3, 189123);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'i_am_a_new_user')
-data.setCell(1, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
-data.setCell(1, 3, 14650);
+data.setCell(1, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
+data.setCell(1, 3, 35252);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'i_see_a_wallet_with_three_pounds')
-data.setCell(2, 2, 'Stepdef.Successful_Registration_from_FUN_with_Top_Up')
+data.setCell(2, 1, 'i_top_up_with_add_funds_through_top_up_page')
+data.setCell(2, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
 data.setCell(2, 3, 1);
 window.suiteTableData['_Popbitch_Chrome']= { tableData: data, tableDiv: 'times-div-_Popbitch_Chrome'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-_Popbitch_Chrome">
               </div> <!-- times-div-_Popbitch_Chrome -->
             </div> <!-- times-div -->
@@ -252,18 +273,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Stepdef.Successful_Registration_from_FUN_with_Top_Up</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Stepdef.Successfull_top_up_from_top_up_notice</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">i_am_a_new_user</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">i_register</span>
-                <span class="method-start">14653 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">i_dont_top_up_during_reg</span>
+                <span class="method-start">35255 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">i_see_a_wallet_with_three_pounds</span>
-                <span class="method-start">173699 ms</span>
+                <span class="method-name">i_top_up_with_add_funds_through_top_up_page</span>
+                <span class="method-start">224381 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
