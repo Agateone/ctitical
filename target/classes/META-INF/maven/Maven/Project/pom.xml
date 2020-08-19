@@ -26,7 +26,7 @@
                 <testFailureIgnore>true</testFailureIgnore>
                 <forkCount>0</forkCount>
           <suiteXmlFiles>
-          <suiteXmlFile>signup.xml</suiteXmlFile>
+          <suiteXmlFile>testng2.xml</suiteXmlFile>
           </suiteXmlFiles>
           </configuration>
         </plugin>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-_Popbitch_Chrome">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_dont_top_up_during_reg">i_dont_top_up_during_reg</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_transaction_from_authoirse_charge_notice" hash-for-method="i_register">i_register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_transaction_from_authoirse_charge_notice" hash-for-method="i_see_a_wallet_with_three_pounds">i_see_a_wallet_with_three_pounds</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-_Popbitch_Chrome -->
@@ -116,12 +121,7 @@
                     <div class="method-list-content passed suite-_Popbitch_Chrome">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_am_a_new_user">i_am_a_new_user</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successfull_top_up_from_top_up_notice" hash-for-method="i_top_up_with_add_funds_through_top_up_page">i_top_up_with_add_funds_through_top_up_page</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-_Popbitch_Chrome" title="Stepdef.Successful_transaction_from_authoirse_charge_notice" hash-for-method="i_am_a_new_user">i_am_a_new_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-_Popbitch_Chrome -->
@@ -139,17 +139,46 @@
           <div class="suite-_Popbitch_Chrome-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Stepdef.Successfull_top_up_from_top_up_notice</span>
+              <span class="class-name">Stepdef.Successful_transaction_from_authoirse_charge_notice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="i_dont_top_up_during_reg">
-                  </a> <!-- i_dont_top_up_during_reg -->
-                  <span class="method-name">i_dont_top_up_during_reg</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [2.75] but found [3.00]
-	at Stepdef.Successfull_top_up_from_top_up_notice.i_dont_top_up_during_reg(Successfull_top_up_from_top_up_notice.java:105)
+                  <a name="i_register">
+                  </a> <!-- i_register -->
+                  <span class="method-name">i_register</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2.75] but found [1.00]
+	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_register(Successful_transaction_from_authoirse_charge_notice.java:85)
 ... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="i_see_a_wallet_with_three_pounds">
+                  </a> <!-- i_see_a_wallet_with_three_pounds -->
+                  <span class="method-name">i_see_a_wallet_with_three_pounds</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;sendpulse-prompt-close&quot; onclick=&quot;oSpP.closeCustomPrompt(false); return false;&quot; style=&quot;color:#222222 !important;&quot;&gt;...&lt;/button&gt; is not clickable at point (554, 120). Other element would receive the click: &lt;div class=&quot;notice-wrapper__26N2- visible__294Dh&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.125)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Jayarees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c38:2749:cf4b:aaa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/s6/h3svzd2j4f3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64370}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.125, webStorageEnabled: true}
+Session ID: fafa99ed433f7f7059462be9a1800490
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:81)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Stepdef.Successful_transaction_from_authoirse_charge_notice.i_see_a_wallet_with_three_pounds(Successful_transaction_from_authoirse_charge_notice.java:101)
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -158,7 +187,7 @@
           <div class="suite-_Popbitch_Chrome-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Stepdef.Successfull_top_up_from_top_up_notice</span>
+              <span class="class-name">Stepdef.Successful_transaction_from_authoirse_charge_notice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -166,13 +195,6 @@
                   <a name="i_am_a_new_user">
                   </a> <!-- i_am_a_new_user -->
                   <span class="method-name">i_am_a_new_user</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="i_top_up_with_add_funds_through_top_up_page">
-                  </a> <!-- i_top_up_with_add_funds_through_top_up_page -->
-                  <span class="method-name">i_top_up_with_add_funds_through_top_up_page</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,7 +212,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Stepdef.Successfull_top_up_from_top_up_notice&quot;/&gt;
+      &lt;class name=&quot;Stepdef.Successful_transaction_from_authoirse_charge_notice&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chrome --&gt;
 &lt;/suite&gt; &lt;!--  Popbitch Chrome --&gt;
@@ -232,17 +254,17 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'i_dont_top_up_during_reg')
-data.setCell(0, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
-data.setCell(0, 3, 189123);
+data.setCell(0, 1, 'i_register')
+data.setCell(0, 2, 'Stepdef.Successful_transaction_from_authoirse_charge_notice')
+data.setCell(0, 3, 153974);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'i_am_a_new_user')
-data.setCell(1, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
-data.setCell(1, 3, 35252);
+data.setCell(1, 2, 'Stepdef.Successful_transaction_from_authoirse_charge_notice')
+data.setCell(1, 3, 28645);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'i_top_up_with_add_funds_through_top_up_page')
-data.setCell(2, 2, 'Stepdef.Successfull_top_up_from_top_up_notice')
-data.setCell(2, 3, 1);
+data.setCell(2, 1, 'i_see_a_wallet_with_three_pounds')
+data.setCell(2, 2, 'Stepdef.Successful_transaction_from_authoirse_charge_notice')
+data.setCell(2, 3, 28272);
 window.suiteTableData['_Popbitch_Chrome']= { tableData: data, tableDiv: 'times-div-_Popbitch_Chrome'}
 return data;
 }
@@ -273,7 +295,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Stepdef.Successfull_top_up_from_top_up_notice</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Stepdef.Successful_transaction_from_authoirse_charge_notice</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">i_am_a_new_user</span>
                 <span class="method-start">0 ms</span>
@@ -281,12 +303,14 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">i_dont_top_up_during_reg</span>
-                <span class="method-start">35255 ms</span>
+                <span class="method-name">i_register</span>
+                <span class="method-start">28650 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">i_top_up_with_add_funds_through_top_up_page</span>
-                <span class="method-start">224381 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">i_see_a_wallet_with_three_pounds</span>
+                <span class="method-start">182628 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

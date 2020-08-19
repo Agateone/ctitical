@@ -5,6 +5,7 @@
    <parameter name="browser" value="chrome" />
     <classes>
       <class name="Stepdef.Successful_Registration_from_FUN_with_Top_Up"/>
+      <class name="Stepdef.Successfull_top_up_from_top_up_notice"/>
     
     </classes>
   </test>  

@@ -4,7 +4,7 @@
   <test  name="chrome" >
    <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Stepdef.Successfull_top_up_from_top_up_notice"/>
+      <class name="Stepdef.Successful_transaction_from_authoirse_charge_notice"/>
     
     </classes>
   </test>  

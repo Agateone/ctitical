@@ -135,6 +135,12 @@ public void Registration8() throws InterruptedException {
 	driver_Register_Page_Elements.findElement(Final_continue).click();
 	Thread.sleep(4000);
 }
+
+public void Registration9() throws InterruptedException {	
+	Thread.sleep(4000);
+	driver_Register_Page_Elements.findElement(Auto_pay).click();
+	Thread.sleep(4000);
+}
 	
 	/*public void Registration_Process() throws InterruptedException, IOException  {		//enter values to Register page elements and hit Register
 		
