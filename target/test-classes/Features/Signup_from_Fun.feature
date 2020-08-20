@@ -26,3 +26,10 @@ Scenario: Successful Transaction from authorise charge notice
 Given I am a new user 
 When I register and top up 
 Then I can read a premium article from authoirse charge notice
+
+#1
+Scenario: Successful Transaction from authorise charge notice
+Given I am a new user 
+When I register from popbitch
+And I navigate to cornwall
+Then I can transact from New publication notice

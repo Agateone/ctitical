@@ -4,11 +4,12 @@
   <test thread-count="5" name="chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Successful_transaction_from_authoirse_charge_notice">
+      <class name="Stepdef.Successful_transaction_from_New_Publication_Notice">
         <methods>
-          <include name="i_register"/>
+          <include name="i_register_from_popbitch"/>
+          <include name="i_can_transact_from_New_publication_notice"/>
         </methods>
-      </class> <!-- Stepdef.Successful_transaction_from_authoirse_charge_notice -->
+      </class> <!-- Stepdef.Successful_transaction_from_New_Publication_Notice -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [ Popbitch Chrome] -->
