@@ -150,6 +150,11 @@ public void Registration9() throws InterruptedException {
 	driver_Register_Page_Elements.findElement(Auto_pay).click();
 	Thread.sleep(4000);
 }
+public void Registration11() throws InterruptedException {	
+	Thread.sleep(4000);
+	driver_Register_Page_Elements.findElement(Auto_top_up).click();
+	Thread.sleep(4000);
+}
 
 public void Registration10() throws InterruptedException {	
 	Thread.sleep(4000);

@@ -28,8 +28,25 @@ When I register and top up
 Then I can read a premium article from authoirse charge notice
 
 #1
-Scenario: Successful Transaction from authorise charge notice
+Scenario: Successful Transaction from New publication notice
 Given I am a new user 
 When I register from popbitch
 And I navigate to cornwall
 Then I can transact from New publication notice
+
+
+#1
+Scenario: Account succesfully auto tops up 
+Given I register on maidenhead with auto top up ON
+When My balance gets below one pound
+Then My account is Auto topped up
+
+
+
+
+
+
+
+
+
+
