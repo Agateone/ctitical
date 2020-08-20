@@ -61,18 +61,24 @@ public class Successful_transaction_from_New_Publication_Notice {
 	  	  Thread.sleep(4000);  		
 		  	R1.Registration2();	  		
 	  	  	R1.Registration22();
+	  	  R1.Registration5();
+	  	R1.Registration6();
+	  	R1.Registration7();
+	  	Thread.sleep(20000);
+	  	R1.Registration8(); 
+	
 	  	 
-	  	R1.Registration10();
-	  	driver.switchTo().window(parentWindowHandler);
-		Thread.sleep(6000);
+	  	Thread.sleep(10000);
+		driver.switchTo().window(parentWindowHandler);
+		Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
+		F1.click_on_popbitch_finish_Notice_ok();
 		Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
 		P1.Click_On_popbitch_staging_agate_poster();
-		Thread.sleep(10000);
-	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
-	F1.click_on_popbitch_finish_Notice_ok();
-		
-		
-	Thread.sleep(4000);
+		Thread.sleep(4000);
+		String your_balance=P1.get_your_balance();
+		String actual_balance="2.75";
+		Assert.assertEquals(your_balance, actual_balance);	
+		Thread.sleep(4000);		
 	}
 /*
 	 @Test(priority=12)
