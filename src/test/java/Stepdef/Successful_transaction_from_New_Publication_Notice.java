@@ -71,12 +71,6 @@ public class Successful_transaction_from_New_Publication_Notice {
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
 		
-	/*	driver.switchTo().frame("iframe__popup_notices");
-		WebElement element = driver.findElement(By.id("finish_button"));
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		actions.perform();
-		driver.switchTo().defaultContent();*/
 		
 	Thread.sleep(4000);
 	}
