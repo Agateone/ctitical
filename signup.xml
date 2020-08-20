@@ -7,6 +7,7 @@
       <class name="Stepdef.Successful_Registration_from_FUN_with_Top_Up"/>
       <class name="Stepdef.Successfull_top_up_from_top_up_notice"/>
      <class name="Stepdef.Successful_transaction_from_authoirse_charge_notice"/>
+    <class name="Stepdef.Successful_transaction_from_New_Publication_Notice"/>
     </classes>
   </test>  
 </suite> 
