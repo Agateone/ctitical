@@ -18,17 +18,12 @@ import cucumber.api.java.en.When;
 public class Successful_Registration_from_FUN_with_Top_Up {
 	
 	 WebDriver driver;
-	 
-	
-	 
-	 
-	 
 	
 	 @Test(priority=1)
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
+		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
     	driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);

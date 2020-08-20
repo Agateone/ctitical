@@ -74,7 +74,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	P1.Click_On_popbitch_staging_agate_poster();
 	Thread.sleep(4000);
 	String your_balance=P1.get_your_balance();
-	String actual_balance="0.80";
+	String actual_balance="1.80";
 	Assert.assertEquals(your_balance, actual_balance);	
 	Thread.sleep(4000);	
 	
