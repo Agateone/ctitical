@@ -83,10 +83,10 @@ WebElement frame = driver_Popbitch_Finish_Notice_elements.findElement(By.xpath("
 
 	
 	public void click_on_popbitch_finish_Notice_ok() throws InterruptedException, IOException
-	{	Thread.sleep(3000);
+	{	Thread.sleep(10000);
 	
-	driver_Popbitch_Finish_Notice_elements.switchTo().frame("iframe__popup_notices");
-		driver_Popbitch_Finish_Notice_elements.findElement(Popbitch_Finish_Notice_ok_button).click();
+	driver_Popbitch_Finish_Notice_elements.switchTo().frame("wallet-notice-finish");
+		driver_Popbitch_Finish_Notice_elements.findElement(By.xpath("/html/body/div/div/div/div/div/div/div[3]/button")).click();
 		driver_Popbitch_Finish_Notice_elements.switchTo().defaultContent();
 		Thread.sleep(4000);
 

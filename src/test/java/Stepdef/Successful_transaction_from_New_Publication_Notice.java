@@ -7,7 +7,9 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -46,7 +48,7 @@ public class Successful_transaction_from_New_Publication_Notice {
         w1.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
         Assert.assertTrue(true);
          
-         Thread.sleep(4000);
+         Thread.sleep(8000);
 		String subWindowHandler = null;
 		Set<String> handles = driver.getWindowHandles(); // get all window handles
 		Iterator<String> iterator = handles.iterator();
@@ -58,19 +60,27 @@ public class Successful_transaction_from_New_Publication_Notice {
 		R1.Registration1();
 	  	  Thread.sleep(4000);  		
 		  	R1.Registration2();	  		
-	  	  	R1.Registration3();
-	  	  R1.Registration4();
+	  	  	R1.Registration22();
+	  	 
 	  	R1.Registration10();
 	  	driver.switchTo().window(parentWindowHandler);
 		Thread.sleep(6000);
-	driver.switchTo().window(parentWindowHandler);
+		Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
+		P1.Click_On_popbitch_staging_agate_poster();
+		Thread.sleep(10000);
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
-	Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
-	P1.Click_On_popbitch_staging_agate_poster();
+		
+		driver.switchTo().frame("iframe__popup_notices");
+		WebElement element = driver.findElement(By.id("finish_button"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element);
+		actions.perform();
+		driver.switchTo().defaultContent();
+		
 	Thread.sleep(4000);
 	}
-
+/*
 	 @Test(priority=12)
 		@When("I navigate to cornwall")	
 		public void i_navigate_to_cornwall() throws InterruptedException, IOException {
@@ -89,6 +99,6 @@ public class Successful_transaction_from_New_Publication_Notice {
 			 Thread.sleep(4000);
 				New_Pub_Notice N1 = new New_Pub_Notice(driver);
 				N1.newpub_charge_notice_click_continue();
-		}
+		}*/
 	
 }

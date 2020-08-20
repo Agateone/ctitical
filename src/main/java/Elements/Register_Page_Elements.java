@@ -69,6 +69,12 @@ public class Register_Page_Elements {
 		driver_Register_Page_Elements.findElement(Marketing_Continue).click();
 		Thread.sleep(4000);
 		}
+		
+		public void Registration22() throws InterruptedException {	
+			
+			driver_Register_Page_Elements.findElement(Missingout_Continue).click();
+			Thread.sleep(4000);
+			}
 		public void Registration3() throws InterruptedException {	
 			
 		driver_Register_Page_Elements.findElement(Change_My_Preferences).click();
@@ -147,7 +153,7 @@ public void Registration9() throws InterruptedException {
 
 public void Registration10() throws InterruptedException {	
 	Thread.sleep(4000);
-	driver_Register_Page_Elements.findElement(Register_Page_Voucher).sendKeys("jay1234567");
+	driver_Register_Page_Elements.findElement(Register_Page_Voucher).sendKeys("jay123456");
 	Thread.sleep(6000);
 	driver_Register_Page_Elements.findElement(voucher_page_continue).click();
 	Thread.sleep(4000);

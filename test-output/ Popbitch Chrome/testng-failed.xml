@@ -7,7 +7,6 @@
       <class name="Stepdef.Successful_transaction_from_New_Publication_Notice">
         <methods>
           <include name="i_register_from_popbitch"/>
-          <include name="i_can_transact_from_New_publication_notice"/>
         </methods>
       </class> <!-- Stepdef.Successful_transaction_from_New_Publication_Notice -->
     </classes>
