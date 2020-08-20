@@ -80,7 +80,7 @@ public class Successful_transaction_from_New_Publication_Notice {
 		Assert.assertEquals(your_balance, actual_balance);	
 		Thread.sleep(4000);		
 	}
-/*
+
 	 @Test(priority=12)
 		@When("I navigate to cornwall")	
 		public void i_navigate_to_cornwall() throws InterruptedException, IOException {
@@ -99,6 +99,6 @@ public class Successful_transaction_from_New_Publication_Notice {
 			 Thread.sleep(4000);
 				New_Pub_Notice N1 = new New_Pub_Notice(driver);
 				N1.newpub_charge_notice_click_continue();
-		}*/
+		}
 	
 }
