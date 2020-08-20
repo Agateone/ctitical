@@ -135,7 +135,7 @@ public void Registration7() throws InterruptedException {
 		driver_Register_Page_Elements.findElement(Address_line).sendKeys("22 barge crescent");
 		Thread.sleep(4000);
 		driver_Register_Page_Elements.findElement(Card_details_continue).click();
-		Thread.sleep(4000);
+		Thread.sleep(10000);
 				
 	}
 
