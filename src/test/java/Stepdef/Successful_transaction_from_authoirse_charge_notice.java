@@ -69,7 +69,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
   	R1.Registration10();
 	driver.switchTo().window(parentWindowHandler);
 	Thread.sleep(6000);
-	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
+	/*Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
 	Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
 	P1.Click_On_popbitch_staging_agate_poster();
@@ -77,7 +77,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	String your_balance=P1.get_your_balance();
 	String actual_balance="1.80";
 	Assert.assertEquals(your_balance, actual_balance);	
-	Thread.sleep(4000);	
+	Thread.sleep(4000);	*/
 	
 	}
 
