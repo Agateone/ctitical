@@ -4,22 +4,11 @@
   <test thread-count="5" name="chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Successful_Registration_from_FUN_with_Top_Up">
-        <methods>
-          <include name="i_register"/>
-        </methods>
-      </class> <!-- Stepdef.Successful_Registration_from_FUN_with_Top_Up -->
       <class name="Stepdef.Successful_transaction_from_authoirse_charge_notice">
         <methods>
-          <include name="i_see_a_wallet_with_three_pounds"/>
           <include name="i_register"/>
         </methods>
       </class> <!-- Stepdef.Successful_transaction_from_authoirse_charge_notice -->
-      <class name="Stepdef.Successfull_top_up_from_top_up_notice">
-        <methods>
-          <include name="i_dont_top_up_during_reg"/>
-        </methods>
-      </class> <!-- Stepdef.Successfull_top_up_from_top_up_notice -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [ Popbitch Chrome] -->

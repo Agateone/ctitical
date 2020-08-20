@@ -68,6 +68,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
   	  R1.Registration4();
   	R1.Registration10();
 	driver.switchTo().window(parentWindowHandler);
+	Thread.sleep(6000);
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
 	Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
