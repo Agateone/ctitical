@@ -27,7 +27,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	 
 	 
 	
-	 @Test(priority=1)
+	 @Test(priority=7)
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
@@ -43,7 +43,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	    
 	}
 
-	 @Test(priority=2)
+	 @Test(priority=8)
 	@When("I register")	
 	public void i_register() throws InterruptedException, IOException {
 		 String parentWindowHandler = driver.getWindowHandle();
@@ -80,7 +80,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	
 	}
 
-	 @Test(priority=3)
+	 @Test(priority=9)
 	@Then("I see a wallet with three pounds")
 	
 	public void i_see_a_wallet_with_three_pounds() throws InterruptedException, IOException {
@@ -96,6 +96,7 @@ public class Successful_transaction_from_authoirse_charge_notice {
 		 AT1.authorise_charge_notice_click_continue();
 		 Thread.sleep(4000);*/
 		 System.out.println(" ");
+		 driver.quit();
   	  	
 	}
 

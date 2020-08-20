@@ -29,19 +29,19 @@ public class Successfull_top_up_from_top_up_notice {
 	 
 	 
 	
-	 @Test(priority=1)
+	 @Test(priority=4)
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
 		driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
-        Thread.sleep(10000);
+        Thread.sleep(20000);
 	    
 	}
 
-	 @Test(priority=2)
+	 @Test(priority=5)
 	@When("I dont top up during reg")	
 	public void i_dont_top_up_during_reg() throws InterruptedException, IOException {
 		 String parentWindowHandler = driver.getWindowHandle();
@@ -89,12 +89,13 @@ public class Successfull_top_up_from_top_up_notice {
 	
 	}
 
-	 @Test(priority=3)
+	 @Test(priority=6)
 	@Then("I top up with add funds through top up page")
 	
 	public void i_top_up_with_add_funds_through_top_up_page() throws InterruptedException {
 		
-  	  	System.out.println(" ");	
+  	  	System.out.println(" ");
+  	  	driver.quit();
   	  	
 	}
 
