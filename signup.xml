@@ -11,6 +11,8 @@
      <class name="Stepdef.Successfull_Auto_Top_Up"/>
      <class name="Stepdef.Successful_transaction_from_finish_notice"/>  
      <class name="Stepdef.Free_period_acheived"/> 
+      <class name="Stepdef.Successful_voucher_with_top_up"/>
+     
     </classes>
   </test>  
 </suite> 

@@ -22,10 +22,10 @@ public class Successful_voucher_with_top_up {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		 System.out.println("Safari driver initialised");
+		
 		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
     	driver= new ChromeDriver();  
-    	System.out.println("SafariDriver was started successfully.");
+    	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
         Thread.sleep(10000);
@@ -67,7 +67,7 @@ public class Successful_voucher_with_top_up {
 	P1.Click_On_popbitch_staging_agate_poster();
 	Thread.sleep(4000);
 	String your_balance=P1.get_your_balance();
-	String actual_balance="5.00";
+	String actual_balance="15.00";
 	Assert.assertEquals(your_balance, actual_balance);	
 	Thread.sleep(4000);		
 	P1.Click_On_popbitch_wallet_Top_up();
