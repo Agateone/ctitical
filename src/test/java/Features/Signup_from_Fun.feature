@@ -59,5 +59,10 @@ Given I am a new user
 When I reg and add a voucher with top up 
 Then I get a wallet with top up amount plus the voucher amount
 
+#1
+Scenario: Wallet balance free point and free period on pulications 
+Given I am a new user 
+When I reg on popbitch and navigate to grantham
+Then wallet balance is same on both publications
 
 

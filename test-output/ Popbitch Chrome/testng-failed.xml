@@ -4,11 +4,13 @@
   <test thread-count="5" name="chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Successful_voucher_with_top_up">
+      <class name="Stepdef.Wallet_balance_free_point_on_publications">
         <methods>
-          <include name="i_reg_and_add_a_voucher_with_top_up"/>
+          <include name="i_am_a_new_user"/>
+          <include name="wallet_balance_is_same_on_both_publications"/>
+          <include name="i_reg_on_popbitch_and_navigate_to_grantham"/>
         </methods>
-      </class> <!-- Stepdef.Successful_voucher_with_top_up -->
+      </class> <!-- Stepdef.Wallet_balance_free_point_on_publications -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [ Popbitch Chrome] -->

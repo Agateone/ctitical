@@ -4,7 +4,7 @@
   <test  name="chrome" >
    <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Stepdef.Successful_voucher_with_top_up"/>
+      <class name="Stepdef.Wallet_balance_free_point_on_publications"/>
     
     </classes>
   </test>  
