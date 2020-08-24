@@ -22,7 +22,7 @@ public class Wallet_balance_free_point_on_publications {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
+		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
     	driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);

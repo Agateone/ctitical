@@ -12,6 +12,7 @@
      <class name="Stepdef.Successful_transaction_from_finish_notice"/>  
      <class name="Stepdef.Free_period_acheived"/> 
       <class name="Stepdef.Successful_voucher_with_top_up"/>
+      <class name="Stepdef.Wallet_balance_free_point_on_publications"/>
      
     </classes>
   </test>  
