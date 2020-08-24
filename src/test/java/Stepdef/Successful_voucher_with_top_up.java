@@ -3,45 +3,39 @@ package Stepdef;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
-
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import Elements.Add_Funds_Notice;
 import Elements.PopbitchFirstUseNoticeElements;
+import Elements.Popbitch_Wallet_Elements_staging;
 import Elements.Register_Page_Elements;
-import Elements.Top_up_Elements;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Successfull_top_up_from_top_up_notice {
+public class Successful_voucher_with_top_up {
 	
 	 WebDriver driver;
-	 
 	
-	 
-	 
-	 
-	
-	 @Test(priority=4)
+	 @Test(priority=23)
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
-		driver= new ChromeDriver();   	
+		 System.out.println("Safari driver initialised");
+		System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");		
+    	driver= new ChromeDriver();  
+    	System.out.println("SafariDriver was started successfully.");
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
-        Thread.sleep(20000);
+        Thread.sleep(10000);
+        
 	    
 	}
 
-	 @Test(priority=5)
-	@When("I dont top up during reg")	
-	public void i_dont_top_up_during_reg() throws InterruptedException, IOException {
+	 @Test(priority=24)
+	@When("I reg and add a voucher with top up ")	
+	public void i_reg_and_add_a_voucher_with_top_up() throws InterruptedException, IOException {
 		 String parentWindowHandler = driver.getWindowHandle();
 		 Thread.sleep(4000);
 		PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
@@ -56,41 +50,33 @@ public class Successfull_top_up_from_top_up_notice {
 		    subWindowHandler = iterator.next();
 		}
 		driver.switchTo().window(subWindowHandler); // switch to popup window		
-		
-		
 		Register_Page_Elements R1 = new Register_Page_Elements(driver);
   	  	R1.Registration1();
   	  Thread.sleep(4000);  		
 	  	R1.Registration2();	  		
-  	  	R1.Registration3();
-  	  R1.Registration4();	
+  	  	R1.Registration22();
+  	  R1.Registration15();
+	R1.Registration6();
+	R1.Registration7();
+	Thread.sleep(20000);
+	R1.Registration8(); 
 	Thread.sleep(10000);
 	driver.switchTo().window(parentWindowHandler);
-	driver.navigate().refresh();
-	Thread.sleep(6000);
 	
-	Add_Funds_Notice A1 = new Add_Funds_Notice(driver);
-	A1.click_on_add_funds_button();
-	
+	Popbitch_Wallet_Elements_staging P1 = new Popbitch_Wallet_Elements_staging(driver);
+	P1.Click_On_popbitch_staging_agate_poster();
 	Thread.sleep(4000);
-	String subWindowHandler2 = null;
-	Set<String> handles2 = driver.getWindowHandles(); // get all window handles
-	Iterator<String> iterator2 = handles2.iterator();
-	while (iterator2.hasNext()){
-	    subWindowHandler2 = iterator2.next();
-	}
-	driver.switchTo().window(subWindowHandler2);
-	
-	Thread.sleep(4000);
-	Top_up_Elements T1 = new   Top_up_Elements(driver);
-	T1.click_on_add_payment();
-	
+	String your_balance=P1.get_your_balance();
+	String actual_balance="5.00";
+	Assert.assertEquals(your_balance, actual_balance);	
+	Thread.sleep(4000);		
+	P1.Click_On_popbitch_wallet_Top_up();
 	}
 
-	 @Test(priority=6)
-	@Then("I top up with add funds through top up page")
+	 @Test(priority=25)
+	@Then("I get a wallet with top up amount plus the voucher amount")
 	
-	public void i_top_up_with_add_funds_through_top_up_page() throws InterruptedException {
+	public void i_get_a_wallet_with_top_up_amount_plus_the_voucher_amount() throws InterruptedException {
 		
   	  	System.out.println(" ");
   	  	driver.quit();

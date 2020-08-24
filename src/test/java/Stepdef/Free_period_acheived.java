@@ -19,7 +19,7 @@ public class Free_period_acheived {
 	
 	 WebDriver driver;
 		
-	 @Test(priority=14)
+	 @Test(priority=20)
 	 @Given("I register on maidenhead with auto top up ON")
 	
 	public void I_register_on_maidenhead_with_auto_top_up_ON() throws InterruptedException {
@@ -31,7 +31,7 @@ public class Free_period_acheived {
 	    
 	}
 
-	 @Test(priority=15)
+	 @Test(priority=21)
 	@When("I click ok on the finish notice")	
 	public void I_click_ok_on_the_finish_notice() throws InterruptedException, IOException {
 		 String parentWindowHandler = driver.getWindowHandle();
@@ -67,7 +67,7 @@ public class Free_period_acheived {
 	Thread.sleep(4000);
 	}
 
-	 @Test(priority=16)
+	 @Test(priority=22)
 	@Then("I acheive free period")
 	
 	public void i_acheive_free_period() throws InterruptedException {

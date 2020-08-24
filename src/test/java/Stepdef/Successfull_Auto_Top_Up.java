@@ -8,11 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import Elements.PopbitchFirstUseNoticeElements;
 import Elements.Popbitch_Finish_Notice_elements;
-
-import Elements.Popbitch_Wallet_Elements_staging;
 import Elements.Register_Page_Elements;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -22,7 +19,7 @@ public class Successfull_Auto_Top_Up {
 	
 	 WebDriver driver;
 		
-	 @Test(priority=1)
+	 @Test(priority=14)
 	 @Given("I register on maidenhead with auto top up ON")
 	
 	public void I_register_on_maidenhead_with_auto_top_up_ON() throws InterruptedException {
@@ -34,7 +31,7 @@ public class Successfull_Auto_Top_Up {
 	    
 	}
 
-	 @Test(priority=2)
+	 @Test(priority=15)
 	@When("My balance gets below one pound")	
 	public void My_balance_gets_below_one_pound() throws InterruptedException, IOException {
 		 String parentWindowHandler = driver.getWindowHandle();
@@ -70,7 +67,7 @@ public class Successfull_Auto_Top_Up {
 	Thread.sleep(4000);
 	}
 
-	 @Test(priority=3)
+	 @Test(priority=16)
 	@Then("I see a wallet with three pounds")
 	
 	public void i_see_a_wallet_with_three_pounds() throws InterruptedException {

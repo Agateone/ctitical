@@ -4,12 +4,11 @@
   <test thread-count="5" name="chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Stepdef.Successfull_Auto_Top_Up">
+      <class name="Stepdef.Successful_voucher_with_top_up">
         <methods>
-          <include name="My_balance_gets_below_one_pound"/>
-          <include name="i_see_a_wallet_with_three_pounds"/>
+          <include name="i_reg_and_add_a_voucher_with_top_up"/>
         </methods>
-      </class> <!-- Stepdef.Successfull_Auto_Top_Up -->
+      </class> <!-- Stepdef.Successful_voucher_with_top_up -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [ Popbitch Chrome] -->

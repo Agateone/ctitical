@@ -39,7 +39,7 @@ public class Register_Page_Elements {
 	By Final_continue = By.xpath("//*[@id=\"app\"]/div/div/form/div[3]/div/input");	
 	By Register_Page_Voucher = By.name("voucher");
 	By voucher_page_continue = By.xpath("/html/body/div/div/div/form/div[3]/div/input");
-	
+	By voucher_lable_3=  By.xpath("//*[@id=\"app\"]/div/div/form/div[1]/div/div/label[2]");
 	
 
 	public Register_Page_Elements(WebDriver driver_Register_Page_Elements2) {			//constructor
@@ -159,6 +159,16 @@ public void Registration11() throws InterruptedException {
 public void Registration10() throws InterruptedException {	
 	Thread.sleep(4000);
 	driver_Register_Page_Elements.findElement(Register_Page_Voucher).sendKeys("jay123456");
+	Thread.sleep(6000);
+	driver_Register_Page_Elements.findElement(voucher_page_continue).click();
+	Thread.sleep(4000);
+}
+
+public void Registration15() throws InterruptedException {	
+	Thread.sleep(4000);
+	driver_Register_Page_Elements.findElement(Register_Page_Voucher).sendKeys("jay1111");
+	Thread.sleep(4000);
+	driver_Register_Page_Elements.findElement(voucher_lable_3).click();
 	Thread.sleep(6000);
 	driver_Register_Page_Elements.findElement(voucher_page_continue).click();
 	Thread.sleep(4000);
