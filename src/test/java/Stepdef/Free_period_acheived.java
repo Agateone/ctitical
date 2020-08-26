@@ -34,7 +34,7 @@ public class Free_period_acheived {
 	 @Test(priority=21)
 	@When("I click ok on the finish notice")	
 	public void I_click_ok_on_the_finish_notice() throws InterruptedException, IOException {
-		 String parentWindowHandler = driver.getWindowHandle();
+		// String parentWindowHandler = driver.getWindowHandle();
 		 Thread.sleep(4000);
 		PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
         w1.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
@@ -51,7 +51,7 @@ public class Free_period_acheived {
 		Register_Page_Elements R1 = new Register_Page_Elements(driver);
   	  	R1.Registration1();
   	  Thread.sleep(4000);  		
-	  	R1.Registration2();	  		
+	  /*	R1.Registration2();	  		
   	  	R1.Registration22();
   
   	R1.Registration5();
@@ -64,7 +64,7 @@ public class Free_period_acheived {
 	driver.switchTo().window(parentWindowHandler);
 	Popbitch_Finish_Notice_elements F1 = new Popbitch_Finish_Notice_elements(driver);
 	F1.click_on_popbitch_finish_Notice_ok();
-	Thread.sleep(4000);
+	Thread.sleep(4000);*/
 	}
 
 	 @Test(priority=22)
